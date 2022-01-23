@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "name": "@indigohive/mui-unicons-line-icons",
+  "description": "Unicons line icons compatible with MUI",
+  "keywords": ["React", "MUI", "icons"],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndigoHive/mui-unicons-line-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IndigoHive/mui-unicons-line-icons/issues"
+  },
+  "homepage": "https://github.com/IndigoHive/mui-unicons-line-icons#readme",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "build": "tsc",
+    "release": "cp package.json README.md ./build"
+  },
+  "devDependencies": {
+    "change-case": "^4.1.2",
+    "prettify-xml": "^1.2.0",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.0.0",
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "react": "^17.0.0"
+  }
+}
